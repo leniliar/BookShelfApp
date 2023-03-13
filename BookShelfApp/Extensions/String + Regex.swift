@@ -1,9 +1,3 @@
-//
-//  String + Regex.swift
-//  BookShelfApp
-//
-//  Created by user on 3.02.23.
-//
 import UIKit
 
 extension String {

@@ -1,11 +1,3 @@
-//
-//  Profile+CoreDataProperties.swift
-//  BookShelfApp
-//
-//  Created by user on 1.03.23.
-//
-//
-
 import Foundation
 import CoreData
 

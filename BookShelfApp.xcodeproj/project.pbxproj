@@ -12,10 +12,9 @@
 		CE466EF5298DC21900E7149F /* CreateAnAccountDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE466EF4298DC21900E7149F /* CreateAnAccountDelegate.swift */; };
 		CE466F02298FC18B00E7149F /* SearchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE466F01298FC18B00E7149F /* SearchScreenVC.swift */; };
 		CE466F04298FC21600E7149F /* SearchScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE466F03298FC21600E7149F /* SearchScreenVC.xib */; };
-		CE466F06298FC86C00E7149F /* PersonalsDatasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE466F05298FC86C00E7149F /* PersonalsDatasVC.swift */; };
+		CE466F06298FC86C00E7149F /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE466F05298FC86C00E7149F /* PersonalInfoVC.swift */; };
 		CE466F092991076B00E7149F /* NetworkServce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE466F082991076B00E7149F /* NetworkServce.swift */; };
 		CE466F0C2991104D00E7149F /* BooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE466F0B2991104D00E7149F /* BooksModel.swift */; };
-		CE466F0E299127F200E7149F /* SearchScreenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE466F0D299127F200E7149F /* SearchScreenCell.xib */; };
 		CE466F102991281200E7149F /* SearchScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE466F0F2991281200E7149F /* SearchScreenCell.swift */; };
 		CE5885A1299BB814005C5A47 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CE5885A0299BB814005C5A47 /* SDWebImage */; };
 		CE5885A3299BB814005C5A47 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE5885A2299BB814005C5A47 /* SDWebImageMapKit */; };
@@ -30,14 +29,15 @@
 		CE9B870F298D222A00CC998A /* CreateAnAccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9B870E298D222A00CC998A /* CreateAnAccountVC.xib */; };
 		CE9B8712298D226D00CC998A /* CreateAnAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B8711298D226D00CC998A /* CreateAnAccountVC.swift */; };
 		CEA94F9729AFD02600FCEDCE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA94F9629AFD02600FCEDCE /* GoogleService-Info.plist */; };
+		CEF0B8F629BF9C4F00A82BC7 /* SearchScreenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF0B8F529BF9C4F00A82BC7 /* SearchScreenCell.xib */; };
 		CEF2AE3C299E377A00B3835A /* BookInformattionSccreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF2AE3B299E377A00B3835A /* BookInformattionSccreenVC.xib */; };
 		CEF2AE3F29A3D4E800B3835A /* BookInformattionSccreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE3E29A3D4E800B3835A /* BookInformattionSccreenVC.swift */; };
-		CEF2AE4129AD0DCE00B3835A /* PersonalsDatasVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF2AE4029AD0DCE00B3835A /* PersonalsDatasVC.xib */; };
-		CEF2AE4329AD173E00B3835A /* EditPersonalDatasVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF2AE4229AD173E00B3835A /* EditPersonalDatasVC.xib */; };
-		CEF2AE4529AD175800B3835A /* EditPersonalDatasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE4429AD175800B3835A /* EditPersonalDatasVC.swift */; };
+		CEF2AE4129AD0DCE00B3835A /* PersonalInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF2AE4029AD0DCE00B3835A /* PersonalInfoVC.xib */; };
+		CEF2AE4329AD173E00B3835A /* EditPersonalInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF2AE4229AD173E00B3835A /* EditPersonalInfoVC.xib */; };
+		CEF2AE4529AD175800B3835A /* EditPersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE4429AD175800B3835A /* EditPersonalInfoVC.swift */; };
 		CEF2AE4729AD2C3C00B3835A /* PersonalsDatasVC + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE4629AD2C3C00B3835A /* PersonalsDatasVC + Alert.swift */; };
 		CEF2AE4929AD4E2F00B3835A /* PersonalsDatasVC + UIImagePickerControllerDelegate + UINavigationControollerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE4829AD4E2F00B3835A /* PersonalsDatasVC + UIImagePickerControllerDelegate + UINavigationControollerDelegate.swift */; };
-		CEF2AE4E29AE02F300B3835A /* EditPersonalDatasVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE4D29AE02F300B3835A /* EditPersonalDatasVCDelegate.swift */; };
+		CEF2AE4E29AE02F300B3835A /* EditPersonalInfoVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE4D29AE02F300B3835A /* EditPersonalInfoVCDelegate.swift */; };
 		CEF2AE5029AE031A00B3835A /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE4F29AE031A00B3835A /* ProfileModel.swift */; };
 		CEF2AE5829AE205800B3835A /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE5729AE205800B3835A /* CoreDataService.swift */; };
 		CEF2AE5B29AE216A00B3835A /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2AE5929AE216A00B3835A /* Profile+CoreDataClass.swift */; };
@@ -53,10 +53,9 @@
 		CE466EF4298DC21900E7149F /* CreateAnAccountDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountDelegate.swift; sourceTree = "<group>"; };
 		CE466F01298FC18B00E7149F /* SearchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenVC.swift; sourceTree = "<group>"; };
 		CE466F03298FC21600E7149F /* SearchScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchScreenVC.xib; sourceTree = "<group>"; };
-		CE466F05298FC86C00E7149F /* PersonalsDatasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalsDatasVC.swift; sourceTree = "<group>"; };
+		CE466F05298FC86C00E7149F /* PersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
 		CE466F082991076B00E7149F /* NetworkServce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServce.swift; sourceTree = "<group>"; };
 		CE466F0B2991104D00E7149F /* BooksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksModel.swift; sourceTree = "<group>"; };
-		CE466F0D299127F200E7149F /* SearchScreenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchScreenCell.xib; path = BookShelfApp/SearchScreen/SearchScreenCell.xib; sourceTree = SOURCE_ROOT; };
 		CE466F0F2991281200E7149F /* SearchScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenCell.swift; sourceTree = "<group>"; };
 		CE66933D299B8A16004E024C /* CoversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoversModel.swift; sourceTree = "<group>"; };
 		CE9B86EA298D0C5000CC998A /* BookShelfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,14 +70,15 @@
 		CE9B870E298D222A00CC998A /* CreateAnAccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAnAccountVC.xib; sourceTree = "<group>"; };
 		CE9B8711298D226D00CC998A /* CreateAnAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountVC.swift; sourceTree = "<group>"; };
 		CEA94F9629AFD02600FCEDCE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEF0B8F529BF9C4F00A82BC7 /* SearchScreenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchScreenCell.xib; sourceTree = "<group>"; };
 		CEF2AE3B299E377A00B3835A /* BookInformattionSccreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookInformattionSccreenVC.xib; sourceTree = "<group>"; };
 		CEF2AE3E29A3D4E800B3835A /* BookInformattionSccreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInformattionSccreenVC.swift; sourceTree = "<group>"; };
-		CEF2AE4029AD0DCE00B3835A /* PersonalsDatasVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalsDatasVC.xib; sourceTree = "<group>"; };
-		CEF2AE4229AD173E00B3835A /* EditPersonalDatasVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPersonalDatasVC.xib; sourceTree = "<group>"; };
-		CEF2AE4429AD175800B3835A /* EditPersonalDatasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonalDatasVC.swift; sourceTree = "<group>"; };
+		CEF2AE4029AD0DCE00B3835A /* PersonalInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalInfoVC.xib; sourceTree = "<group>"; };
+		CEF2AE4229AD173E00B3835A /* EditPersonalInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPersonalInfoVC.xib; sourceTree = "<group>"; };
+		CEF2AE4429AD175800B3835A /* EditPersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonalInfoVC.swift; sourceTree = "<group>"; };
 		CEF2AE4629AD2C3C00B3835A /* PersonalsDatasVC + Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalsDatasVC + Alert.swift"; sourceTree = "<group>"; };
 		CEF2AE4829AD4E2F00B3835A /* PersonalsDatasVC + UIImagePickerControllerDelegate + UINavigationControollerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalsDatasVC + UIImagePickerControllerDelegate + UINavigationControollerDelegate.swift"; sourceTree = "<group>"; };
-		CEF2AE4D29AE02F300B3835A /* EditPersonalDatasVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonalDatasVCDelegate.swift; sourceTree = "<group>"; };
+		CEF2AE4D29AE02F300B3835A /* EditPersonalInfoVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonalInfoVCDelegate.swift; sourceTree = "<group>"; };
 		CEF2AE4F29AE031A00B3835A /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		CEF2AE5729AE205800B3835A /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		CEF2AE5929AE216A00B3835A /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -106,7 +106,6 @@
 				E9EDFA3C785287584895382E /* Pods-BookShelfApp.debug.xcconfig */,
 				52E58379FEDE75C434771D8B /* Pods-BookShelfApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -126,29 +125,29 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		CE466EF6298FBC0800E7149F /* PersonalDatasScreen */ = {
+		CE466EF6298FBC0800E7149F /* PersonalInfo */ = {
 			isa = PBXGroup;
 			children = (
 				CEF2AE4A29ADFA2B00B3835A /* Extensions */,
-				CE466F05298FC86C00E7149F /* PersonalsDatasVC.swift */,
-				CEF2AE4029AD0DCE00B3835A /* PersonalsDatasVC.xib */,
-				CEF2AE4229AD173E00B3835A /* EditPersonalDatasVC.xib */,
-				CEF2AE4429AD175800B3835A /* EditPersonalDatasVC.swift */,
-				CEF2AE4D29AE02F300B3835A /* EditPersonalDatasVCDelegate.swift */,
+				CE466F05298FC86C00E7149F /* PersonalInfoVC.swift */,
+				CEF2AE4029AD0DCE00B3835A /* PersonalInfoVC.xib */,
+				CEF2AE4229AD173E00B3835A /* EditPersonalInfoVC.xib */,
+				CEF2AE4429AD175800B3835A /* EditPersonalInfoVC.swift */,
+				CEF2AE4D29AE02F300B3835A /* EditPersonalInfoVCDelegate.swift */,
 				CEF2AE4F29AE031A00B3835A /* ProfileModel.swift */,
 			);
-			path = PersonalDatasScreen;
+			path = PersonalInfo;
 			sourceTree = "<group>";
 		};
-		CE466EF7298FBC1E00E7149F /* SearchScreen */ = {
+		CE466EF7298FBC1E00E7149F /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				CEF0B8F529BF9C4F00A82BC7 /* SearchScreenCell.xib */,
 				CE466F01298FC18B00E7149F /* SearchScreenVC.swift */,
 				CE466F03298FC21600E7149F /* SearchScreenVC.xib */,
-				CE466F0D299127F200E7149F /* SearchScreenCell.xib */,
 				CE466F0F2991281200E7149F /* SearchScreenCell.swift */,
 			);
-			path = SearchScreen;
+			path = Search;
 			sourceTree = "<group>";
 		};
 		CE466F072991074300E7149F /* Services */ = {
@@ -192,13 +191,9 @@
 		CE9B86EC298D0C5000CC998A /* BookShelfApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEF0B8F429BF9A9300A82BC7 /* Screens */,
 				CE466F0A2991103E00E7149F /* Models */,
 				CE466F072991074300E7149F /* Services */,
-				CE466EF6298FBC0800E7149F /* PersonalDatasScreen */,
-				CEF2AE3D299E5BF800B3835A /* BookInformationScreen */,
-				CE466EF7298FBC1E00E7149F /* SearchScreen */,
-				CE9B870B298D104800CC998A /* SignInScreen */,
-				CE9B8710298D224800CC998A /* CreateAnAccountScreen */,
 				CE466EEB298D659B00E7149F /* Extensions */,
 				CE9B8704298D0C6000CC998A /* SupportingFiles */,
 				CE9B86FE298D0C5500CC998A /* Info.plist */,
@@ -219,16 +214,16 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		CE9B870B298D104800CC998A /* SignInScreen */ = {
+		CE9B870B298D104800CC998A /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
 				CE9B870C298D137A00CC998A /* SignInScreenVC.swift */,
 				CE9B8709298D102800CC998A /* SignInScreenVC.xib */,
 			);
-			path = SignInScreen;
+			path = SignIn;
 			sourceTree = "<group>";
 		};
-		CE9B8710298D224800CC998A /* CreateAnAccountScreen */ = {
+		CE9B8710298D224800CC998A /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
 				CE9B870E298D222A00CC998A /* CreateAnAccountVC.xib */,
@@ -236,16 +231,28 @@
 				CE466EF4298DC21900E7149F /* CreateAnAccountDelegate.swift */,
 				CE9B8711298D226D00CC998A /* CreateAnAccountVC.swift */,
 			);
-			path = CreateAnAccountScreen;
+			path = SignUp;
 			sourceTree = "<group>";
 		};
-		CEF2AE3D299E5BF800B3835A /* BookInformationScreen */ = {
+		CEF0B8F429BF9A9300A82BC7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B870B298D104800CC998A /* SignIn */,
+				CE9B8710298D224800CC998A /* SignUp */,
+				CE466EF7298FBC1E00E7149F /* Search */,
+				CEF2AE3D299E5BF800B3835A /* BookInfo */,
+				CE466EF6298FBC0800E7149F /* PersonalInfo */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CEF2AE3D299E5BF800B3835A /* BookInfo */ = {
 			isa = PBXGroup;
 			children = (
 				CEF2AE3B299E377A00B3835A /* BookInformattionSccreenVC.xib */,
 				CEF2AE3E29A3D4E800B3835A /* BookInformattionSccreenVC.swift */,
 			);
-			path = BookInformationScreen;
+			path = BookInfo;
 			sourceTree = "<group>";
 		};
 		CEF2AE4A29ADFA2B00B3835A /* Extensions */ = {
@@ -308,7 +315,7 @@
 			);
 			mainGroup = CE9B86E1298D0C5000CC998A;
 			packageReferences = (
-				CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage.git" */,
+				CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = CE9B86EB298D0C5000CC998A /* Products */;
 			projectDirPath = "";
@@ -325,13 +332,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9B86FD298D0C5500CC998A /* LaunchScreen.storyboard in Resources */,
-				CE466F0E299127F200E7149F /* SearchScreenCell.xib in Resources */,
-				CEF2AE4329AD173E00B3835A /* EditPersonalDatasVC.xib in Resources */,
-				CEF2AE4129AD0DCE00B3835A /* PersonalsDatasVC.xib in Resources */,
+				CEF2AE4329AD173E00B3835A /* EditPersonalInfoVC.xib in Resources */,
+				CEF2AE4129AD0DCE00B3835A /* PersonalInfoVC.xib in Resources */,
 				CE9B86FA298D0C5500CC998A /* Assets.xcassets in Resources */,
 				CE9B870F298D222A00CC998A /* CreateAnAccountVC.xib in Resources */,
 				CE9B870A298D102800CC998A /* SignInScreenVC.xib in Resources */,
 				CEA94F9729AFD02600FCEDCE /* GoogleService-Info.plist in Resources */,
+				CEF0B8F629BF9C4F00A82BC7 /* SearchScreenCell.xib in Resources */,
 				CEF2AE3C299E377A00B3835A /* BookInformattionSccreenVC.xib in Resources */,
 				CE466F04298FC21600E7149F /* SearchScreenVC.xib in Resources */,
 			);
@@ -388,7 +395,7 @@
 			files = (
 				CE9B870D298D137A00CC998A /* SignInScreenVC.swift in Sources */,
 				CEF2AE5C29AE216A00B3835A /* Profile+CoreDataProperties.swift in Sources */,
-				CEF2AE4529AD175800B3835A /* EditPersonalDatasVC.swift in Sources */,
+				CEF2AE4529AD175800B3835A /* EditPersonalInfoVC.swift in Sources */,
 				CEF2AE5029AE031A00B3835A /* ProfileModel.swift in Sources */,
 				CE466F02298FC18B00E7149F /* SearchScreenVC.swift in Sources */,
 				CE9B86EE298D0C5000CC998A /* AppDelegate.swift in Sources */,
@@ -397,11 +404,11 @@
 				CE466EF5298DC21900E7149F /* CreateAnAccountDelegate.swift in Sources */,
 				CE466EED298D676600E7149F /* String + Regex.swift in Sources */,
 				CE9B86F0298D0C5000CC998A /* SceneDelegate.swift in Sources */,
-				CEF2AE4E29AE02F300B3835A /* EditPersonalDatasVCDelegate.swift in Sources */,
+				CEF2AE4E29AE02F300B3835A /* EditPersonalInfoVCDelegate.swift in Sources */,
 				CE9B86F8298D0C5000CC998A /* BookShelfApp.xcdatamodeld in Sources */,
 				CE466F092991076B00E7149F /* NetworkServce.swift in Sources */,
 				CE466F0C2991104D00E7149F /* BooksModel.swift in Sources */,
-				CE466F06298FC86C00E7149F /* PersonalsDatasVC.swift in Sources */,
+				CE466F06298FC86C00E7149F /* PersonalInfoVC.swift in Sources */,
 				CE9B8712298D226D00CC998A /* CreateAnAccountVC.swift in Sources */,
 				CE466EF3298DC1AA00E7149F /* CreateAnAccountModel.swift in Sources */,
 				CEF2AE5B29AE216A00B3835A /* Profile+CoreDataClass.swift in Sources */,
@@ -622,7 +629,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage.git" */ = {
+		CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
@@ -635,12 +642,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		CE5885A0299BB814005C5A47 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage.git" */;
+			package = CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
 		CE5885A2299BB814005C5A47 /* SDWebImageMapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage.git" */;
+			package = CE58859F299BB814005C5A47 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */

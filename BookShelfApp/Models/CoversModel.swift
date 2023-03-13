@@ -1,10 +1,3 @@
-//
-//  CoversModel.swift
-//  BookShelfApp
-//
-//  Created by user on 14.02.23.
-//
-
 import Foundation
 
 struct Covers: Codable {

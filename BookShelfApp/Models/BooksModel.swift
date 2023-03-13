@@ -1,10 +1,3 @@
-//
-//  BooksModel.swift
-//  BookShelfApp
-//
-//  Created by user on 6.02.23.
-//
-
 import Foundation
 
 struct BooksModel: Codable {
