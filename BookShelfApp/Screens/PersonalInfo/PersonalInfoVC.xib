@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalsDatasVC" customModule="BookShelfApp" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalInfoVC" customModule="BookShelfApp" customModuleProvider="target">
             <connections>
                 <outlet property="ageLabel" destination="4jR-4C-H7K" id="4aP-aF-qY6"/>
                 <outlet property="emailLabel" destination="SvW-Yf-aar" id="HC0-IU-7W4"/>

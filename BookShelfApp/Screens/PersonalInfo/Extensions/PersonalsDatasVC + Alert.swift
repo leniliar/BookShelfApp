@@ -1,14 +1,7 @@
-//
-//  PersonalsDatasVC + Alert.swift
-//  BookShelfApp
-//
-//  Created by user on 27.02.23.
-//
-
 import Foundation
 import UIKit
 
-extension PersonalsDatasVC {
+extension PersonalInfoVC {
     
     @objc func addAProfilePPicDidTTap( _ gesture: UITapGestureRecognizer) {
         guard gesture.view != nil else {return}

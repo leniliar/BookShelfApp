@@ -1,10 +1,3 @@
-//
-//  SignInScreenVC.swift
-//  BookShelfApp
-//
-//  Created by user on 3.02.23.
-//
-
 import Foundation
 import UIKit
 import FirebaseAuth
@@ -82,7 +75,7 @@ final class SignInScreenVC: UIViewController, CreateAnAccountDelegate {
         tabBar.tabBar.tintColor = .black
         
         let searchVC = UINavigationController(rootViewController: SearchScreenVC())
-        let profileVC = UINavigationController(rootViewController: PersonalsDatasVC())
+        let profileVC = UINavigationController(rootViewController: PersonalInfoVC())
         
         tabBar.setViewControllers([generateTabBarVC(viewController: searchVC,
                                                     title: "Search",

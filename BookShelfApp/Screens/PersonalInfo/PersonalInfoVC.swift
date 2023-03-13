@@ -1,14 +1,7 @@
-//
-//  PersonalsDatasVC.swift
-//  BookShelfApp
-//
-//  Created by user on 5.02.23.
-//
-
 import Foundation
 import UIKit
 
-final class PersonalsDatasVC: UIViewController, EditPersonalDatasVCDelegate {
+final class PersonalInfoVC: UIViewController, EditPersonalInfoVCDelegate {
     
     func dataDidSave(model: ProfileModel) {
         if let name = model.name {
@@ -76,7 +69,7 @@ final class PersonalsDatasVC: UIViewController, EditPersonalDatasVCDelegate {
     }
     
     @IBAction private func editProfileDidTap() {
-        let editProfileVC = EditPersonalDatasVC(nibName: "\(EditPersonalDatasVC.self)", bundle: nil)
+        let editProfileVC = EditPersonalInfoVC(nibName: "\(EditPersonalInfoVC.self)", bundle: nil)
         editProfileVC.editDelegate = self
         editProfileVC.editModel = ProfileModel(name: nameLabel.text,
                                                email: emailLabel.text,

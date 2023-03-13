@@ -1,10 +1,3 @@
-//
-//  SearchScreenVC.swift
-//  BookShelfApp
-//
-//  Created by user on 5.02.23.
-//
-
 import Foundation
 import UIKit
 

@@ -1,20 +1,13 @@
-//
-//  EditPersonalDatasVC.swift
-//  BookShelfApp
-//
-//  Created by user on 27.02.23.
-//
-
 import Foundation
 import UIKit
 
-final class EditPersonalDatasVC: UIViewController, UITextFieldDelegate {
+final class EditPersonalInfoVC: UIViewController, UITextFieldDelegate {
     
     @IBOutlet private weak var nameTF: UITextField!
     @IBOutlet private weak var emailTF: UITextField!
     @IBOutlet private weak var ageTF: UITextField!
     
-    var editDelegate: EditPersonalDatasVCDelegate?
+    var editDelegate: EditPersonalInfoVCDelegate?
     var editModel = ProfileModel()
     
     override func viewDidLoad() {

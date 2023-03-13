@@ -1,10 +1,3 @@
-//
-//  BookInformattionSccreenVC.swift
-//  BookShelfApp
-//
-//  Created by user on 20.02.23.
-//
-
 import Foundation
 import UIKit
 

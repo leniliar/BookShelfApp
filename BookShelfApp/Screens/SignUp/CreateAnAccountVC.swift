@@ -1,10 +1,3 @@
-//
-//  SreateAnAccountVC.swift
-//  BookShelfApp
-//
-//  Created by user on 3.02.23.
-//
-
 import Foundation
 import UIKit
 import FirebaseAuth

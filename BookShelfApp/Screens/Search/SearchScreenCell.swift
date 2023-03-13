@@ -1,10 +1,3 @@
-//
-//  SearchScreenCell.swift
-//  BookShelfApp
-//
-//  Created by user on 6.02.23.
-//
-
 import UIKit
 import SDWebImage
 
